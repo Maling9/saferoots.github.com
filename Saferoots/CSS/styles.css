@@ -1,0 +1,48 @@
+section, header, footer {
+    border: 1px solid grey;
+  }
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+header h1 {
+margin: 0;
+}
+
+header ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+header li {
+margin-left: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.service-items {
+    flex-basis: 30%;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+}
+  
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company-info, .services-footer, .contact {
+    flex-basis: 30%;
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+}
